@@ -12,5 +12,9 @@ public class MembershipDAO {
 	public boolean addOtherAddMethod() {
 		System.out.println(getClass() + " addOtherAddMethod()");
 		return true;
-	}	
+	}
+	
+	public void goToSleep() {
+		System.out.println(getClass() + " goToSleep()");
+	}
 }
